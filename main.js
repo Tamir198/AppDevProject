@@ -1,6 +1,9 @@
 import data from './db.js'
 
-$(document).ready(function () {
+
+$(document).ready(() => {
   //TODO chaned relevant view on main html and show only the wanted adds
-  console.dir(data);
+  $("#adds__container").html("<div><button>Tamir</button> <button>Daniellle</button></div>");
+ 
+  console.table(data);
 });
