@@ -17,6 +17,8 @@ const data = [
 
     fromDate: "1/1/2022",
     toDate: "31/12/2022",
+    timeDuration: 5,
+    screens: {"1": true, "3": true}
 
   },
   {
@@ -37,6 +39,9 @@ const data = [
 
     fromDate: "1/3/2022",
     toDate: "30/4/2022",
+
+    timeDuration: 5,
+    screens: {"1": true, "3": true}
 
   },
   {
@@ -77,6 +82,9 @@ const data = [
     fromDate: "1/5/2022",
     toDate: "15/6/2022",
 
+    timeDuration: 5,
+    screens: {"1": true, "3": true}
+
   },
   {
     name: "Fourth",
@@ -93,6 +101,8 @@ const data = [
     fromDate: "29/3/2022",
     toDate: "15/4/2022",
 
+    timeDuration: 5,
+    screens: {"1": true, "3": true}
   },
   {
     name: "Fifth",
@@ -116,9 +126,11 @@ const data = [
 
     fromDate: "1/4/2022",
     toDate: "30/4/2022",
+    timeDuration: 5,
+    screens: {"1": true, "3": true}
   },
 
 ];
 
 
-export default data
+export default data;
