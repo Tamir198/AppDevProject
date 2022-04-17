@@ -1,9 +1,11 @@
 import data from './db.js'
 
+import templateA from "/templates/templateA.js";
+import templateB from "/templates/templateB.js";
+import templateC from "/templates/templateC.js";
 
 $(document).ready(() => {
-  //TODO chaned relevant view on main html and show only the wanted adds
-  $("#adds__container").html("<div><button>Tamir</button> <button>Daniellle</button></div>");
- 
-  console.table(data);
+  $("#adds__container").append(templateA("Test"));
+  $("#adds__container").append(templateB("Test"));
+  $("#adds__container").append(templateC("Test"));
 });
