@@ -5,7 +5,7 @@ import templateB from "/templates/templateB.js";
 import templateC from "/templates/templateC.js";
 
 $(document).ready(() => {
-  $("#adds__container").append(templateA("Test"));
-  $("#adds__container").append(templateB("Test"));
-  $("#adds__container").append(templateC("Test"));
+  $("#ads__container").append(templateA("DAnielleee"));
+  $("#ads__container").append(templateB("DAnelin"));
+  $("#ads__container").append(templateC("asdfasdasd"));
 });
