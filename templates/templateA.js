@@ -1,7 +1,6 @@
 const templateA = (name) => {
-
   return `<div style="border:3px solid blue">
-    <p>Hey, I am template A</p>
+    <h1>Hey, I am template A</h1>
     <button>${name}</button>
   </div>`
 }

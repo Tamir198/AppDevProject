@@ -1,12 +1,12 @@
 const data = [
   {
-    name: "one",
+    name: "First",
     templateUrl: "templates/templateA.html",
     texts: ["text1", "text2", "text3", "text4"],
     imagesUrl: ["images/img1.jpg", "images/img2.jpg"],
     timesToShow: [{
       fromDate: "1/1/2022",
-      toDate: "31/12/2022",
+      toDate: "12/31/2022",
       days: {
         monday: {
           fromHour: 6,
@@ -22,15 +22,15 @@ const data = [
     screens: { "1": true, "3": true }
   },
   {
-    name: "two",
+    name: "Second",
     templateUrl: "templates/templateB.html",
     texts: ["text1", "text2", "text3", "text4", "text5", "text6", "text7", "text8", "text9", "text10"],
     imagesUrl: ["images/img1.jpg"],
     timesToShow: [{
-      fromDate: "1/3/2022",
-      toDate: "30/4/2022",
+      fromDate: "3/1/2022",
+      toDate: "4/30/2022",
       days: {
-        Tuesday: {
+        tuesday: {
           fromHour: 10,
           toHour: 16
         },
@@ -49,8 +49,8 @@ const data = [
     texts: [],
     imagesUrl: [],
     timesToShow: [{
-      fromDate: "1/5/2022",
-      toDate: "15/6/2022",
+      fromDate: "5/1/2022",
+      toDate: "6/15/2022",
       days: {
         Sunday: {
           fromHour: 8,
@@ -92,8 +92,8 @@ const data = [
     texts: ["text1", "text2"],
     imagesUrl: [],
     timesToShow: [{
-      fromDate: "29/3/2022",
-      toDate: "15/4/2022",
+      fromDate: "3/29/2022",
+      toDate: "4/15/2022",
       days: {
         monday: {
           fromHour: 15,
@@ -110,8 +110,8 @@ const data = [
     texts: ["text1", "text2", "text3", "text4", "text5", "text6", "text7"],
     imagesUrl: ["images/img1.jpg", "images/img2.jpg"],
     timesToShow: [{
-      fromDate: "1/4/2022",
-      toDate: "30/4/2022",
+      fromDate: "4/1/2022",
+      toDate: "4/30/2022",
       days: {
         monday: {
           fromHour: 1,
