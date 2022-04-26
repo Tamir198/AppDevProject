@@ -1,9 +1,11 @@
 const data = [
   {
-    name: "First",
+    name: "Hummus",
     templateUrl: "templates/templateA.html",
-    texts: ["text1", "text2", "text3", "text4"],
-    imagesUrl: ["images/img1.jpg", "images/img2.jpg"],
+    texts: ["MEsabaha", "thini", "Pita", "Soda"],
+    imagesUrl: [
+      "https://eilat.city/images/3362-%D7%97%D7%95%D7%9E%D7%95%D7%A1-%D7%90%D7%9C%D7%99%D7%94%D7%95-%D7%90%D7%99%D7%9C%D7%AA-12.jpg"
+      ],
     timesToShow: [{
       fromDate: "1/1/2022",
       toDate: "12/31/2022",
@@ -22,10 +24,10 @@ const data = [
     screens: { "1": true, "3": true }
   },
   {
-    name: "Second",
+    name: "Pandora",
     templateUrl: "templates/templateB.html",
-    texts: ["text1", "text2", "text3", "text4", "text5", "text6", "text7", "text8", "text9", "text10"],
-    imagesUrl: ["images/img1.jpg"],
+    texts: ["Braclet", "shine", "woman", "man", "animals", "juelary", "hands", "foot", "finger", "ears"],
+    imagesUrl: ["https://canarywharf.com/wp-content/uploads/2020/05/canary-wharf-shops-services-pandora-ss20-1-710x690-1.jpg"],
     timesToShow: [{
       fromDate: "3/1/2022",
       toDate: "4/30/2022",
@@ -44,7 +46,7 @@ const data = [
     screens: { "1": true, "3": true }
   },
   {
-    name: "Third",
+    name: "Apple",
     templateUrl: "templates/templateC.html",
     texts: [],
     imagesUrl: [],
@@ -87,9 +89,9 @@ const data = [
 
   },
   {
-    name: "Fourth",
+    name: "Cars",
     templateUrl: "templates/templateA.html",
-    texts: ["text1", "text2"],
+    texts: ["Fast", "very fast"],
     imagesUrl: [],
     timesToShow: [{
       fromDate: "3/29/2022",
@@ -105,10 +107,13 @@ const data = [
     screens: { "1": true, "3": true }
   },
   {
-    name: "Fifth",
+    name: "McDonalds",
     templateUrl: "templates/templateB.html",
-    texts: ["text1", "text2", "text3", "text4", "text5", "text6", "text7"],
-    imagesUrl: ["images/img1.jpg", "images/img2.jpg"],
+    texts: ["Eat with us", "Yummi", "Loving it", "Soda", "cool foods", "burgers", "fries"],
+    imagesUrl: [
+      "https://s7d1.scene7.com/is/image/mcdonalds/h-mcdonalds-Big-Mac-Extra-Value-Meals:product-header-desktop?wid=830&hei=456&dpr=off",
+     "https://malls.amot.co.il/files/mcdonalds.png"
+    ],
     timesToShow: [{
       fromDate: "4/1/2022",
       toDate: "4/30/2022",
