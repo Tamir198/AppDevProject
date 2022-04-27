@@ -1,8 +1,8 @@
 const data = [
   {
-    name: "Hummus",
+    name: "Hummus Eliahu",
     templateUrl: "templates/templateA.html",
-    texts: ["MEsabaha", "thini", "Pita", "Soda"],
+    texts: ["Mesabaha", "thini", "Pita", "Soda"],
     imagesUrl: [
       "https://eilat.city/images/3362-%D7%97%D7%95%D7%9E%D7%95%D7%A1-%D7%90%D7%9C%D7%99%D7%94%D7%95-%D7%90%D7%99%D7%9C%D7%AA-12.jpg"
       ],
@@ -26,7 +26,7 @@ const data = [
   {
     name: "Pandora",
     templateUrl: "templates/templateB.html",
-    texts: ["Braclet", "shine", "woman", "man", "animals", "juelary", "hands", "foot", "finger", "ears"],
+    texts: ["Braclet", "shine", "woman", "man", "earings", "jewelry", "hands", "necklace", "rings", "beautiful"],
     imagesUrl: ["https://canarywharf.com/wp-content/uploads/2020/05/canary-wharf-shops-services-pandora-ss20-1-710x690-1.jpg"],
     timesToShow: [{
       fromDate: "3/1/2022",
@@ -91,7 +91,7 @@ const data = [
   {
     name: "Cars",
     templateUrl: "templates/templateA.html",
-    texts: ["Fast", "very fast"],
+    texts: ["Fast", "Furious"],
     imagesUrl: [],
     timesToShow: [{
       fromDate: "3/29/2022",
@@ -109,7 +109,7 @@ const data = [
   {
     name: "McDonalds",
     templateUrl: "templates/templateB.html",
-    texts: ["Eat with us", "Yummi", "Loving it", "Soda", "cool foods", "burgers", "fries"],
+    texts: ["Eat with us", "Yummi", "I'm Loving it", "Soda", "onion rings", "burgers", "fries"],
     imagesUrl: [
       "https://s7d1.scene7.com/is/image/mcdonalds/h-mcdonalds-Big-Mac-Extra-Value-Meals:product-header-desktop?wid=830&hei=456&dpr=off",
      "https://malls.amot.co.il/files/mcdonalds.png"
