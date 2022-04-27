@@ -37,7 +37,7 @@ $(document).ready(() => {
     } else {
       adToShowIndex++;
     }
-  }, 1500);
+  }, adsToShow[adToShowIndex].timeDuration*1000);
 
 });
 

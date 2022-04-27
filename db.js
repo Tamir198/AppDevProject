@@ -103,7 +103,7 @@ const data = [
         },
       },
     }],
-    timeDuration: 5,
+    timeDuration: 15,
     screens: { "1": true, "3": true }
   },
   {
@@ -132,7 +132,7 @@ const data = [
         },
       },
     }],
-    timeDuration: 5,
+    timeDuration: 15,
     screens: { "1": true, "3": true }
   },
 
