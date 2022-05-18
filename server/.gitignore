@@ -1,0 +1,39 @@
+.project
+.settings
+*~
+*.diff
+*.patch
+.DS_Store
+.bower.json
+.sizecache.json
+yarn.lock
+package-lock.json
+
+npm-debug.log*
+
+# Ignore everything in dist folder except for eslint config
+/dist/*
+!/dist/.eslintrc.json
+
+/amd
+/external
+/node_modules
+
+/test/data/core/jquery-iterability-transpiled.js
+/test/data/qunit-fixture.js
+
+
+### Git ###
+# Created by git for backups. To disable backups in Git:
+# $ git config --global mergetool.keepBackup false
+*.orig
+
+# Created by git when using merge tools for conflicts
+*.BACKUP.*
+*.BASE.*
+*.LOCAL.*
+*.REMOTE.*
+*_BACKUP_*.txt
+*_BASE_*.txt
+*_LOCAL_*.txt
+*_REMOTE_*.txt
