@@ -15,13 +15,13 @@ const data = [
           toHour: 12
         },
         wednesday: {
-          fromHour: 6,
-          toHour: 12
+          fromHour: 13,
+          toHour: 20
         }
       },
     }],
     timeDuration: 5,
-    screens: { "1": true, "3": true }
+    screens: [1,2]
   },
   {
     name: "Pandora",
@@ -43,7 +43,7 @@ const data = [
       },
     }],
     timeDuration: 5,
-    screens: { "1": true, "3": true }
+    screens: [1,3]
   },
   {
     name: "Apple",
@@ -85,7 +85,7 @@ const data = [
       },
     }],
     timeDuration: 5,
-    screens: { "1": true, "3": true }
+    screens: [2,3]
 
   },
   {
@@ -104,7 +104,7 @@ const data = [
       },
     }],
     timeDuration: 15,
-    screens: { "1": true, "3": true }
+    screens: [1]
   },
   {
     name: "McDonalds",
@@ -133,7 +133,7 @@ const data = [
       },
     }],
     timeDuration: 15,
-    screens: { "1": true, "3": true }
+    screens: [3]
   },
 
 ];
