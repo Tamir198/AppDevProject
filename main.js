@@ -15,6 +15,11 @@ const showAd = (ad) => {
 }
 
 $(document).ready(() => {
+//Call the server http bla bla bla
+//Get array of adds to show on that screen 
+//Pass array to the logic bellow
+
+
   const date = new Date();
   data.forEach(ad => {
     ad.timesToShow.forEach(timeToShow => {

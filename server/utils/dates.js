@@ -1,12 +1,12 @@
 const weekDays = ["sunday", "monday","tuesday", "wednesday","thursday", "friday","saturday"]
 
 
-const isBetweenDates = (dateToCheck, fromTime, toTime) => {
+exports.isBetweenDates = (dateToCheck, fromTime, toTime) => {
   const dateToCheckTime = dateToCheck.getTime();
   return dateToCheckTime > fromTime.getTime() && dateToCheckTime < toTime.getTime()
 }
 
-const shouldShowAdNow = (date, days) => {
+exports.shouldShowAdNow = (date, days) => {
   const currDay = weekDays[date.getDay()];
   if (!(currDay in days)) return false;
 
@@ -15,7 +15,4 @@ const shouldShowAdNow = (date, days) => {
   return (currHour >= fromHour && currHour < toHour);
 }
 
-export default {
-  isBetweenDates,
-  shouldShowAdNow
-}
+  
